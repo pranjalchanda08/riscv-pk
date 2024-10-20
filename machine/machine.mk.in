@@ -4,6 +4,7 @@ machine_subproject_deps = \
   softfloat \
 
 machine_hdrs = \
+  crc_driver.h \
   atomic.h \
   bits.h \
   fdt.h \
@@ -21,6 +22,8 @@ machine_hdrs = \
   vm.h \
 
 machine_c_srcs = \
+  test_drv.c \
+  crc_driver.c \
   fdt.c \
   mtrap.c \
   minit.c \
